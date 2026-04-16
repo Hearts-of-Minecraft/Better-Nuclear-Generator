@@ -167,7 +167,7 @@ public class ReactorInput extends SimpleSlimefunItem<BlockTicker> /*implements E
 					}
 				}
 				if(found == false) {
-					e.getPlayer().sendMessage(ChatColor.RED+"未找到反应堆核心");
+					e.getPlayer().sendMessage(ChatColor.RED+"Reactor core not found");
 					BlockStorage.clearBlockInfo(b);
 					e.setCancelled(true);
 				}
